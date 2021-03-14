@@ -9,7 +9,7 @@
 }
 
 .kotak2 {
-    background-color: blue;
+    background-color: green;
 
 }
 
@@ -41,19 +41,19 @@ body {
 
 .tabel {
     padding: 0px;
-    width: 500px;
+    width: fit-content;
     color: white;
-    background-color: blue;
+    background-color: green;
 }
 
 .footer1 {
-    background-color: blue;
+    background-color: green;
     color: white;
     height: auto;
 }
 
 .header1 {
-    background-color: blue;
+    background-color: green;
     color: white;
     height: auto;
     text-align: center;
