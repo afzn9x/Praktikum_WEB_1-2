@@ -10,5 +10,5 @@
 </head>
     <body>
         <header class="header1">
-            <p class="p3"><b>Data Siswa</b></p>
+            <p class="p3"><b>Data Siswa Berbasis Array</b></p>
         </header>
