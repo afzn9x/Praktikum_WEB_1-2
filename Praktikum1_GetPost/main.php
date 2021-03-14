@@ -1,46 +1,31 @@
 <div class="kotak">
-        <div class="container kotak1 tabel">
+        <div class="container kotak1">
                 <table class="table tabel">
-                    <tr>
-                        <td>NIM</td><td> : </td><td><?php echo $nim?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Nama</td><td> : </td><td><?php echo $nama?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Matakuliah</td><td> : </td><td><?php echo $matkul?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Nilai Tugas</td><td> : </td><td><?php echo $nilai_tugas?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Nilai UTS</td><td> : </td><td><?php echo $nilai_uts?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Nilai UAS</td><td> : </td><td><?php echo $nilai_uas?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Nilai Akhir</td><td> : </td><td><?php echo $a?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Grade</td><td> : </td><td><?php echo $c?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Predikat</td><td> : </td><td><?php echo $d?></td>
-                    </tr>
-
-                    <tr>
-                        <td>Status</td><td> : </td><td><?php echo $b?></td>
-                    </tr>
-
+                    <thead>
+                        <tr>
+                        <th>No</th><th>NIM</th><th>Nama</th><th>Matakuliah</th><th>Nilai Tugas</th><th>Nilai UTS</th>
+                        <th>Nilai UAS</th><th>Nilai Akhir</th><th>Grade</th><th>Predikat</th><th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <?php 
+                    $nomor = 1;
+                    foreach($array as $data){
+                        echo '<tr><td>' .$nomor. '</td>';
+                        echo '<td>' .$data['nim']. '</td>';
+                        echo '<td>' .$data['nama']. '</td>';
+                        echo '<td>' .$data['matkul']. '</td>';
+                        echo '<td>' .$data['tugas']. '</td>';
+                        echo '<td>' .$data['uts']. '</td>';
+                        echo '<td>' .$data['uas']. '</td>';
+                        echo '<td>' .$data['akhir']. '</td>';
+                        echo '<td>' .$data['grade']. '</td>';
+                        echo '<td>' .$data['predikat']. '</td>';
+                        echo '<td>' .$data['status']. '</td>';
+                        $nomor++;
+                    }
+                    ?>   
+                    </tbody>
                 </table>
         </div>
     </div>
