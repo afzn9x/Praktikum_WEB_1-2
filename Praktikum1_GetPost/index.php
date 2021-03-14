@@ -79,7 +79,7 @@
 								<input type="checkbox" name="proses" value="Berhasil" required> Form sudah benar
 							</label>
 						</div> 
-						<button type="submit" class="btn btn-primary">
+						<button type="submit" class="btn btn-success">
 							Simpan
 						</button>
 					</form>
