@@ -19,7 +19,7 @@
 		<div class="container-fluid kotak1">
 			<div class="row">
 				<div class="col-md-6 p-2 kotak2">
-						<p class="p1">Form <br> Nilai Siswa</p>
+						<p class="p1">Form <br> Nilai Siswa (Array)</p>
 				</div>
 				<div class="col-md-6">
 					<form role="form" method="post" action="admin.php" >
