@@ -1,0 +1,60 @@
+.kotak {
+    margin-top: 20px;
+    
+}
+
+.kotak1 {
+    width: fit-content;
+    padding: 10px;
+}
+
+.kotak2 {
+    background-color: green;
+
+}
+
+.p1 {
+    text-align: right;
+    color: white;
+    margin-right: 5px;
+    font-size: 45pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.p2 {
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.p3 {
+    padding: 20px;
+    font-size: 20pt;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.tabel {
+    padding: 0px;
+    width: fit-content;
+    color: white;
+    background-color: green;
+}
+
+.footer1 {
+    background-color: green;
+    color: white;
+    height: auto;
+}
+
+.header1 {
+    background-color: green;
+    color: white;
+    height: auto;
+    text-align: center;
+}
