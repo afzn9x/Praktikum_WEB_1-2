@@ -80,6 +80,12 @@ else{
     echo 'Masukkan Data';
 }
 
+$data1 = ['nim' => 1001, 'nama'=>'Fulan', 'matkul'=>'Basis Data', 'tugas'=>90, 'uts'=>88, 'uas'=>77, 'akhir'=>84, 'grade'=>"B", 'predikat'=>'Memuaskan', 'status'=>'Lulus'];
+$data2 = ['nim' => 1002, 'nama'=>'Fulanah', 'matkul'=>'Web', 'tugas'=>80, 'uts'=>78, 'uas'=>57, 'akhir'=>84, 'grade'=>"B", 'predikat'=>'Memuaskan', 'status'=>'Lulus'];
+$data3 = ['nim' => 1003, 'nama'=>'Siti', 'matkul'=>'Matematika', 'tugas'=>90, 'uts'=>88, 'uas'=>77, 'akhir'=>84, 'grade'=>"B", 'predikat'=>'Memuaskan', 'status'=>'Lulus'];
+$data4 = ['nim' => 1004, 'nama'=>'Arya', 'matkul'=>'Sains', 'tugas'=>80, 'uts'=>78, 'uas'=>77, 'akhir'=>84, 'grade'=>"B", 'predikat'=>'Memuaskan', 'status'=>'Lulus'];
+$data5 = ['nim' => $nim, 'nama'=>$nama, 'matkul'=>$matkul, 'tugas'=>$nilai_tugas, 'uts'=>$nilai_uts, 'uas'=>$nilai_uas, 'akhir'=>$a, 'grade'=>$c, 'predikat'=>$d, 'status'=>$b];
+$array = [$data1, $data2, $data3, $data4, $data5];
 include_once 'header.php';
 require_once 'main.php';
 include_once 'footer.php';
